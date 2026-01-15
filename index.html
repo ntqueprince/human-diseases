@@ -1,762 +1,143 @@
 <!DOCTYPE html>
 <html lang="hi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>मानव रोग (Human Diseases) | Lucent GK</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>मानव रोग - Lucent GK Complete Guide</title>
+    <!-- CSS फ़ाइल को लिंक करना -->
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body class="pb-16">
-    <div class="max-w-lg mx-auto p-4">
-
-        <!-- 1) HERO Section -->
-        <section class="hero-gradient text-white rounded-2xl p-6 text-center mb-6 shadow-xl">
-            <h1 class="text-3xl font-black mb-2">🦠 मानव रोग</h1>
-            <p class="text-lg opacity-90 mb-4">Human Diseases - Lucent GK Complete Guide</p>
-            <div class="flex flex-wrap justify-center gap-2">
-                <span class="badge bg-white text-green-700">📱 Mobile Ready</span>
-                <span class="badge bg-white text-cyan-700">📝 Exam Focused</span>
-                <span class="badge bg-white text-purple-700">🎯 90+ Questions</span>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>🏥 मानव रोग (Human Diseases)</h1>
+            <p>Lucent GK आधारित पूर्ण अध्ययन सामग्री</p>
+            <div class="badges">
+                <div class="badge">📚 सम्पूर्ण नोट्स</div>
+                <div class="badge">🎯 परीक्षा उपयोगी</div>
+                <div class="badge">💯 75+ प्रश्न</div>
             </div>
-        </section>
-
-        <!-- 2) 1-MINUTE SUMMARY -->
-        <section class="card">
-            <h2 class="text-xl font-bold text-green-700 mb-3">⏱️ 1 मिनट में Summary</h2>
-            <ul class="text-sm space-y-2">
-                <li>🦠 <strong>Virus</strong> = सबसे छोटे, अकोशिकीय (कोशिका नहीं), जैसे: COVID, AIDS, पोलियो</li>
-                <li>🔬 <strong>Bacteria</strong> = एककोशिकीय, टाइफाइड, हैजा, TB, डिप्थीरिया</li>
-                <li>🐛 <strong>Protozoa</strong> = एककोशिकीय जीव, मलेरिया, कालाजार, पेचिश</li>
-                <li>🍄 <strong>Fungus</strong> = दाद, खाज, Athlete's foot, गंजापन</li>
-                <li>🪱 <strong>Worm (कृमि)</strong> = फाइलेरिया (हाथीपांव), एस्केरिस</li>
-                <li>🦟 <strong>Vector (वाहक)</strong> = मच्छर, मक्खी द्वारा रोग फैलते हैं</li>
-                <li>💉 <strong>Vaccine</strong> = रोग से बचाव का तरीका</li>
-                <li>🏥 <strong>COVID-19</strong> = SARS-CoV-2 वायरस, 2019 में शुरू</li>
-            </ul>
-        </section>
-
-        <!-- 3) STORY MODE -->
-        <section class="card bg-gradient-to-r from-green-50 to-cyan-50">
-            <h2 class="text-xl font-bold text-green-800 mb-3">📖 Story Mode: राजू की बीमारी</h2>
-            <div class="text-sm space-y-3">
-                <p>👦 <strong>राजू:</strong> "मैडम, मुझे बुखार आ रहा है और ठंड भी लग रही है!"</p>
-                <p>👩‍🏫 <strong>मैडम:</strong> "बेटा, यह <strong>मलेरिया</strong> के लक्षण हैं। यह
-                    <strong>Plasmodium</strong> नाम के Protozoa से होता है।"
-                </p>
-                <div class="callout-important">
-                    <strong>🔴 Important:</strong> मलेरिया <strong>मादा एनोफिलीज मच्छर</strong> के काटने से फैलता है!
-                </div>
-                <p>👦 "लेकिन मेरे दोस्त को तो खांसी है और बहुत कमजोरी!"</p>
-                <p>👩‍🏫 "वो <strong>TB (टीबी)</strong> हो सकता है, जो <strong>Mycobacterium</strong> bacteria से होता
-                    है।"</p>
-                <div class="callout-tip">
-                    <strong>💡 Exam Tip:</strong> TB को "King of Diseases" भी कहते हैं!
-                </div>
-                <p>👦 "और मेरे पापा के पैर में सूजन है?"</p>
-                <p>👩‍🏫 "यह <strong>फाइलेरिया (हाथीपांव)</strong> है, जो <strong>Wuchereria</strong> नाम के कृमि (Worm)
-                    से होता है। यह भी मच्छर से फैलता है!"</p>
-                <div class="callout-trick">
-                    <strong>🎯 Trick:</strong> "मच्छर से 3 M" = <strong>M</strong>alaria, <strong>M</strong>ost Filaria,
-                    <strong>M</strong>ean Dengue!
-                </div>
-            </div>
-        </section>
-
-        <!-- 4) DISEASE TABLES -->
-        <section class="card">
-            <h2 class="text-xl font-bold text-red-600 mb-4">📊 रोगों की तालिका</h2>
-
-            <!-- VIRUS TABLE -->
-            <h3 class="font-bold text-lg text-purple-700 mb-2">🦠 Virus द्वारा रोग</h3>
-            <div class="overflow-x-auto mb-4">
-                <table class="disease-table">
-                    <tr>
-                        <th>रोग</th>
-                        <th>वायरस</th>
-                        <th>प्रभावित अंग</th>
-                    </tr>
-                    <tr>
-                        <td>COVID-19</td>
-                        <td>SARS-CoV-2</td>
-                        <td>फेफड़े</td>
-                    </tr>
-                    <tr>
-                        <td>AIDS</td>
-                        <td>HIV</td>
-                        <td>प्रतिरक्षा तंत्र</td>
-                    </tr>
-                    <tr>
-                        <td>पोलियो</td>
-                        <td>Polio Virus</td>
-                        <td>तंत्रिका तंत्र</td>
-                    </tr>
-                    <tr>
-                        <td>रेबीज</td>
-                        <td>Rabies Virus</td>
-                        <td>मस्तिष्क</td>
-                    </tr>
-                    <tr>
-                        <td>चेचक</td>
-                        <td>Variola</td>
-                        <td>त्वचा</td>
-                    </tr>
-                    <tr>
-                        <td>डेंगू</td>
-                        <td>Dengue Virus</td>
-                        <td>रक्त</td>
-                    </tr>
-                    <tr>
-                        <td>हेपेटाइटिस</td>
-                        <td>Hepatitis A/B/C</td>
-                        <td>लीवर</td>
-                    </tr>
-                    <tr>
-                        <td>खसरा</td>
-                        <td>Measles</td>
-                        <td>त्वचा, श्वास</td>
-                    </tr>
-                </table>
-            </div>
-
-            <!-- BACTERIA TABLE -->
-            <h3 class="font-bold text-lg text-blue-700 mb-2">🔬 Bacteria द्वारा रोग</h3>
-            <div class="overflow-x-auto mb-4">
-                <table class="disease-table">
-                    <tr>
-                        <th>रोग</th>
-                        <th>बैक्टीरिया</th>
-                        <th>लक्षण</th>
-                    </tr>
-                    <tr>
-                        <td>टाइफाइड</td>
-                        <td>Salmonella typhi</td>
-                        <td>तेज बुखार</td>
-                    </tr>
-                    <tr>
-                        <td>हैजा</td>
-                        <td>Vibrio cholerae</td>
-                        <td>उल्टी-दस्त</td>
-                    </tr>
-                    <tr>
-                        <td>TB (क्षय रोग)</td>
-                        <td>Mycobacterium</td>
-                        <td>खांसी, कमजोरी</td>
-                    </tr>
-                    <tr>
-                        <td>डिप्थीरिया</td>
-                        <td>Corynebacterium</td>
-                        <td>गला खराब</td>
-                    </tr>
-                    <tr>
-                        <td>निमोनिया</td>
-                        <td>Streptococcus</td>
-                        <td>फेफड़ों में संक्रमण</td>
-                    </tr>
-                    <tr>
-                        <td>कुष्ठ रोग</td>
-                        <td>Mycobacterium leprae</td>
-                        <td>त्वचा पर धब्बे</td>
-                    </tr>
-                    <tr>
-                        <td>प्लेग</td>
-                        <td>Yersinia pestis</td>
-                        <td>बुखार, सूजन</td>
-                    </tr>
-                </table>
-            </div>
-
-            <!-- PROTOZOA TABLE -->
-            <h3 class="font-bold text-lg text-green-700 mb-2">🐛 Protozoa द्वारा रोग</h3>
-            <div class="overflow-x-auto mb-4">
-                <table class="disease-table">
-                    <tr>
-                        <th>रोग</th>
-                        <th>प्रोटोजोआ</th>
-                        <th>वाहक</th>
-                    </tr>
-                    <tr>
-                        <td>मलेरिया</td>
-                        <td>Plasmodium</td>
-                        <td>मादा एनोफिलीज</td>
-                    </tr>
-                    <tr>
-                        <td>कालाजार</td>
-                        <td>Leishmania</td>
-                        <td>सैंडफ्लाई</td>
-                    </tr>
-                    <tr>
-                        <td>अमीबिक पेचिश</td>
-                        <td>Entamoeba</td>
-                        <td>दूषित पानी</td>
-                    </tr>
-                    <tr>
-                        <td>स्लीपिंग सिकनेस</td>
-                        <td>Trypanosoma</td>
-                        <td>Tsetse मक्खी</td>
-                    </tr>
-                </table>
-            </div>
-
-            <!-- FUNGUS TABLE -->
-            <h3 class="font-bold text-lg text-yellow-700 mb-2">🍄 Fungus द्वारा रोग</h3>
-            <div class="overflow-x-auto mb-4">
-                <table class="disease-table">
-                    <tr>
-                        <th>रोग</th>
-                        <th>कवक</th>
-                        <th>प्रभावित अंग</th>
-                    </tr>
-                    <tr>
-                        <td>दाद (Ringworm)</td>
-                        <td>Trichophyton</td>
-                        <td>त्वचा</td>
-                    </tr>
-                    <tr>
-                        <td>खाज</td>
-                        <td>Microsporum</td>
-                        <td>त्वचा</td>
-                    </tr>
-                    <tr>
-                        <td>Athlete's Foot</td>
-                        <td>Epidermophyton</td>
-                        <td>पैर की उंगलियां</td>
-                    </tr>
-                    <tr>
-                        <td>गंजापन</td>
-                        <td>Trichophyton</td>
-                        <td>सिर की त्वचा</td>
-                    </tr>
-                </table>
-            </div>
-
-            <!-- WORM TABLE -->
-            <h3 class="font-bold text-lg text-orange-700 mb-2">🪱 Worm (कृमि) द्वारा रोग</h3>
-            <div class="overflow-x-auto">
-                <table class="disease-table">
-                    <tr>
-                        <th>रोग</th>
-                        <th>कृमि</th>
-                        <th>प्रभाव</th>
-                    </tr>
-                    <tr>
-                        <td>फाइलेरिया (हाथीपांव)</td>
-                        <td>Wuchereria</td>
-                        <td>पैर में सूजन</td>
-                    </tr>
-                    <tr>
-                        <td>एस्केरिस</td>
-                        <td>Ascaris</td>
-                        <td>पेट दर्द</td>
-                    </tr>
-                    <tr>
-                        <td>टेपवर्म</td>
-                        <td>Taenia</td>
-                        <td>आंतों में</td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-
-        <!-- 5) COMPARISON CHART -->
-        <section class="card">
-            <h2 class="text-xl font-bold text-indigo-700 mb-3">⚖️ तुलना चार्ट</h2>
-            <div class="overflow-x-auto">
-                <table class="disease-table text-xs">
-                    <tr>
-                        <th>विशेषता</th>
-                        <th>Virus</th>
-                        <th>Bacteria</th>
-                        <th>Protozoa</th>
-                    </tr>
-                    <tr>
-                        <td>आकार</td>
-                        <td>सबसे छोटा</td>
-                        <td>छोटा</td>
-                        <td>बड़ा</td>
-                    </tr>
-                    <tr>
-                        <td>कोशिका</td>
-                        <td>नहीं</td>
-                        <td>हाँ (1)</td>
-                        <td>हाँ (1)</td>
-                    </tr>
-                    <tr>
-                        <td>उदाहरण</td>
-                        <td>COVID, AIDS</td>
-                        <td>TB, हैजा</td>
-                        <td>मलेरिया</td>
-                    </tr>
-                    <tr>
-                        <td>इलाज</td>
-                        <td>Antiviral</td>
-                        <td>Antibiotic</td>
-                        <td>Antiprotozoal</td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-
-        <!-- 6) MEMORY TRICKS -->
-        <section class="card bg-gradient-to-r from-yellow-50 to-orange-50">
-            <h2 class="text-xl font-bold text-orange-700 mb-3">🧠 याद रखने की Tricks</h2>
-            <div class="space-y-3 text-sm">
-                <div class="callout-trick">
-                    <strong>🎯 Virus रोग:</strong> "CAP-RD" = <strong>C</strong>OVID, <strong>A</strong>IDS,
-                    <strong>P</strong>olio, <strong>R</strong>abies, <strong>D</strong>engue
-                </div>
-                <div class="callout-trick">
-                    <strong>🎯 Bacteria रोग:</strong> "टी-टी हैज़ा दे" = <strong>T</strong>yphoid, <strong>T</strong>B,
-                    <strong>हैज़ा</strong>, <strong>D</strong>iphtheria
-                </div>
-                <div class="callout-trick">
-                    <strong>🎯 मच्छर वाले रोग:</strong> "MDF" = <strong>M</strong>alaria, <strong>D</strong>engue,
-                    <strong>F</strong>ilaria
-                </div>
-                <div class="callout-trick">
-                    <strong>🎯 Protozoa याद:</strong> "MASK" = <strong>M</strong>alaria, <strong>A</strong>moebiasis,
-                    <strong>S</strong>leeping sickness, <strong>K</strong>ala-azar
-                </div>
-            </div>
-        </section>
-
-        <!-- 7) QUIZZES SECTION -->
-        <section id="quiz-section" class="space-y-6">
-            <h2 class="text-2xl font-black text-center text-green-800 my-6">✍️ परीक्षा अभ्यास (Practice Zone)</h2>
-
-            <!-- (A) 30 MCQs -->
-            <div class="card">
-                <h3 class="text-lg font-bold bg-blue-100 p-2 rounded mb-4">A) 30 बहुविकल्पीय प्रश्न (MCQs)</h3>
-                <div class="space-y-4 text-sm">
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">1. मलेरिया किससे होता है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded hover:bg-gray-100">A) Virus</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded hover:bg-gray-100">B) Bacteria</button>
-                            <button onclick="checkAns(this,true,'सही! Plasmodium (Protozoa)')"
-                                class="block w-full text-left p-2 border rounded hover:bg-gray-100">C) Protozoa</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded hover:bg-gray-100">D) Fungus</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">2. COVID-19 का कारक कौन सा वायरस है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">A) HIV</button>
-                            <button onclick="checkAns(this,true,'सही!')"
-                                class="block w-full text-left p-2 border rounded">B) SARS-CoV-2</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">C) H1N1</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">D) Dengue Virus</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">3. टाइफाइड किस bacteria से होता है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,true,'सही!')"
-                                class="block w-full text-left p-2 border rounded">A) Salmonella typhi</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">B) Vibrio cholerae</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">C) E. coli</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">D) Streptococcus</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">4. फाइलेरिया (हाथीपांव) किससे होता है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">A) Virus</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">B) Bacteria</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">C) Protozoa</button>
-                            <button onclick="checkAns(this,true,'सही! Wuchereria (कृमि)')"
-                                class="block w-full text-left p-2 border rounded">D) Worm (कृमि)</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">5. दाद (Ringworm) किससे होता है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">A) Virus</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">B) Bacteria</button>
-                            <button onclick="checkAns(this,true,'सही! Trichophyton (Fungus)')"
-                                class="block w-full text-left p-2 border rounded">C) Fungus</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">D) Protozoa</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">6. मलेरिया का वाहक कौन है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,true,'सही!')"
-                                class="block w-full text-left p-2 border rounded">A) मादा एनोफिलीज मच्छर</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">B) क्यूलेक्स मच्छर</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">C) एडीज मच्छर</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">D) मक्खी</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">7. AIDS किस virus से होता है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,true,'सही!')"
-                                class="block w-full text-left p-2 border rounded">A) HIV</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">B) HPV</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">C) HBV</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">D) Dengue</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">8. कालाजार किससे होता है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">A) Plasmodium</button>
-                            <button onclick="checkAns(this,true,'सही! Leishmania')"
-                                class="block w-full text-left p-2 border rounded">B) Leishmania</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">C) Entamoeba</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">D) Trypanosoma</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">9. TB किस अंग को प्रभावित करता है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,true,'सही!')"
-                                class="block w-full text-left p-2 border rounded">A) फेफड़े</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">B) हृदय</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">C) लीवर</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">D) किडनी</button>
-                        </div>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold mb-2">10. हैजा का कारक bacteria कौन सा है?</p>
-                        <div class="space-y-1">
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">A) Salmonella</button>
-                            <button onclick="checkAns(this,true,'सही!')"
-                                class="block w-full text-left p-2 border rounded">B) Vibrio cholerae</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">C) E. coli</button>
-                            <button onclick="checkAns(this,false,'')"
-                                class="block w-full text-left p-2 border rounded">D) Bacillus</button>
-                        </div>
-                    </div>
-                    <!-- Quick MCQs 11-30 -->
-                    <div class="p-2 bg-yellow-50 text-center font-bold text-xs rounded">... 11-30 Quick Practice ...
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold">11. पोलियो किस अंग को प्रभावित करता है?</p>
-                        <p class="text-green-600 font-bold mt-1">उत्तर: तंत्रिका तंत्र</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold">12. रेबीज किससे फैलता है?</p>
-                        <p class="text-green-600 font-bold mt-1">उत्तर: कुत्ते के काटने से</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold">13. डेंगू का वाहक कौन है?</p>
-                        <p class="text-green-600 font-bold mt-1">उत्तर: एडीज मच्छर</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold">14. Athlete's Foot किस प्रकार का रोग है?</p>
-                        <p class="text-green-600 font-bold mt-1">उत्तर: Fungal</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold">15. स्लीपिंग सिकनेस का वाहक?</p>
-                        <p class="text-green-600 font-bold mt-1">उत्तर: Tsetse मक्खी</p>
-                    </div>
-                    <div class="p-3 bg-gray-50 rounded border">
-                        <p class="font-bold">16-30. (Self Study): टेबल से practice करें!</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- (B) 20 True/False -->
-            <div class="card">
-                <h3 class="text-lg font-bold bg-green-100 p-2 rounded mb-4">B) 20 सही या गलत (True/False)</h3>
-                <div class="space-y-2 text-sm">
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>1. मलेरिया Virus से होता
-                            है।</span><span class="text-red-600 font-bold">❌ False</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>2. COVID-19 SARS-CoV-2 से होता
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>3. TB एक Bacterial रोग
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>4. दाद Virus से होता
-                            है।</span><span class="text-red-600 font-bold">❌ False (Fungus)</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>5. फाइलेरिया मच्छर से फैलता
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>6. AIDS प्रतिरक्षा तंत्र को
-                            प्रभावित करता है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>7. हैजा दूषित पानी से फैलता
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>8. कालाजार मच्छर से फैलता
-                            है।</span><span class="text-red-600 font-bold">❌ False (सैंडफ्लाई)</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>9. पोलियो का टीका उपलब्ध
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>10. Virus में कोशिका होती
-                            है।</span><span class="text-red-600 font-bold">❌ False</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>11. टाइफाइड Salmonella से होता
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>12. रेबीज पानी से फैलता
-                            है।</span><span class="text-red-600 font-bold">❌ False (काटने से)</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>13. Protozoa एककोशिकीय जीव
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>14. Antibiotics Virus पर काम
-                            करते हैं।</span><span class="text-red-600 font-bold">❌ False</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>15. डेंगू एडीज मच्छर से फैलता
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>16. गंजापन Bacteria से होता
-                            है।</span><span class="text-red-600 font-bold">❌ False (Fungus)</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>17. प्लेग Bacterial रोग
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>18. हेपेटाइटिस लीवर को प्रभावित
-                            करता है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>19. एस्केरिस एक कृमि
-                            है।</span><span class="text-green-600 font-bold">✅ True</span></div>
-                    <div class="p-2 bg-white rounded border flex justify-between"><span>20. COVID-19 2019 में शुरू
-                    </div>
-                </div>
-
-                <!-- (C) 20 Fill in the Blanks with Eye Toggle -->
-                <div class="card">
-                    <h3 class="text-lg font-bold bg-yellow-100 p-2 rounded mb-4">C) 20 रिक्त स्थान भरें (Fill Ups) 👁
-                    </h3>
-                    <div class="space-y-3 text-sm">
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>1. मलेरिया का कारक ________ है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Plasmodium)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>2. COVID-19 ________ वायरस से होता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(SARS-CoV-2)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>3. टाइफाइड ________ bacteria से होता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Salmonella)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>4. फाइलेरिया ________ कृमि से होता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Wuchereria)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>5. दाद ________ प्रकार का रोग है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Fungal)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>6. मलेरिया का वाहक ________ मच्छर है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(मादा एनोफिलीज)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>7. AIDS ________ virus से होता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(HIV)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>8. कालाजार ________ से फैलता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(सैंडफ्लाई)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>9. TB ________ को प्रभावित करता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(फेफड़े)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>10. हैजा ________ bacteria से होता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Vibrio cholerae)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>11. पोलियो ________ तंत्र को प्रभावित करता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(तंत्रिका)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>12. डेंगू का वाहक ________ मच्छर है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(एडीज)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>13. स्लीपिंग सिकनेस ________ मक्खी से फैलता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Tsetse)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>14. Virus में ________ नहीं होती। <span
-                                    class="fill-ans hidden font-bold text-green-600">(कोशिका)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>15. हेपेटाइटिस ________ को प्रभावित करता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(लीवर)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>16. रेबीज ________ के काटने से फैलता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(कुत्ते)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>17. Athlete's Foot ________ से होता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Fungus)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>18. Bacteria का इलाज ________ से होता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Antibiotics)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center border-b pb-2">
-                            <p>19. प्लेग ________ bacteria से होता है। <span
-                                    class="fill-ans hidden font-bold text-green-600">(Yersinia pestis)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <p>20. COVID-19 ________ में शुरू हुआ। <span
-                                    class="fill-ans hidden font-bold text-green-600">(2019)</span></p>
-                            <button onclick="toggleFill(this)" class="eye-btn">👁️</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- (D) 10 Match the Following -->
-                <div class="card">
-                    <h3 class="text-lg font-bold bg-orange-100 p-2 rounded mb-4">D) 10 मिलान करें (Match)</h3>
-                    <table class="disease-table text-xs">
-                        <tr>
-                            <th>रोग</th>
-                            <th>कारक/वाहक</th>
-                        </tr>
-                        <tr>
-                            <td>1. मलेरिया</td>
-                            <td class="font-bold">→ Plasmodium (मादा एनोफिलीज)</td>
-                        </tr>
-                        <tr>
-                            <td>2. COVID-19</td>
-                            <td class="font-bold">→ SARS-CoV-2</td>
-                        </tr>
-                        <tr>
-                            <td>3. टाइफाइड</td>
-                            <td class="font-bold">→ Salmonella typhi</td>
-                        </tr>
-                        <tr>
-                            <td>4. फाइलेरिया</td>
-                            <td class="font-bold">→ Wuchereria</td>
-                        </tr>
-                        <tr>
-                            <td>5. दाद</td>
-                            <td class="font-bold">→ Trichophyton (Fungus)</td>
-                        </tr>
-                        <tr>
-                            <td>6. AIDS</td>
-                            <td class="font-bold">→ HIV</td>
-                        </tr>
-                        <tr>
-                            <td>7. कालाजार</td>
-                            <td class="font-bold">→ Leishmania (सैंडफ्लाई)</td>
-                        </tr>
-                        <tr>
-                            <td>8. हैजा</td>
-                            <td class="font-bold">→ Vibrio cholerae</td>
-                        </tr>
-                        <tr>
-                            <td>9. TB</td>
-                            <td class="font-bold">→ Mycobacterium</td>
-                        </tr>
-                        <tr>
-                            <td>10. डेंगू</td>
-                            <td class="font-bold">→ एडीज मच्छर</td>
-                        </tr>
-                    </table>
-                </div>
-
-                <!-- (E) 10 One Liners -->
-                <div class="card">
-                    <h3 class="text-lg font-bold bg-purple-100 p-2 rounded mb-4">E) 10 एक पंक्ति उत्तर</h3>
-                    <div class="space-y-2 text-sm">
-                        <p><strong>1.</strong> Virus सबसे छोटा रोगाणु है।</p>
-                        <p><strong>2.</strong> Antibiotics केवल Bacteria पर काम करते हैं।</p>
-                        <p><strong>3.</strong> मलेरिया का कारक Plasmodium है।</p>
-                        <p><strong>4.</strong> COVID-19 = SARS-CoV-2 वायरस।</p>
-                        <p><strong>5.</strong> फाइलेरिया को हाथीपांव भी कहते हैं।</p>
-                        <p><strong>6.</strong> दाद Fungal infection है।</p>
-                        <p><strong>7.</strong> AIDS प्रतिरक्षा तंत्र को नष्ट करता है।</p>
-                        <p><strong>8.</strong> टाइफाइड दूषित पानी से फैलता है।</p>
-                        <p><strong>9.</strong> TB फेफड़ों को प्रभावित करता है।</p>
-                        <p><strong>10.</strong> Protozoa एककोशिकीय जीव हैं।</p>
-                    </div>
-                </div>
-        </section>
-
-        <!-- 8) Final Revision Notes -->
-        <section class="card bg-gray-800 text-white">
-            <h2 class="text-xl font-bold mb-3 text-yellow-400">🏁 अंतिम रिवीजन नोट्स</h2>
-            <ul class="text-sm space-y-2 list-disc ml-5">
-                <li><strong>Virus:</strong> सबसे छोटा, अकोशिकीय - COVID, AIDS, Polio, Rabies</li>
-                <li><strong>Bacteria:</strong> एककोशिकीय - TB, टाइफाइड, हैजा, डिप्थीरिया</li>
-                <li><strong>Protozoa:</strong> मलेरिया (Plasmodium), कालाजार (Leishmania)</li>
-                <li><strong>Fungus:</strong> दाद, खाज, Athlete's foot, गंजापन</li>
-                <li><strong>Worm:</strong> फाइलेरिया (Wuchereria), एस्केरिस</li>
-                <li><strong>Vectors:</strong> मच्छर (मलेरिया, डेंगू, फाइलेरिया), मक्खी (स्लीपिंग सिकनेस)</li>
-            </ul>
-        </section>
-
-        <!-- 9) Common Mistakes -->
-        <section class="card border-2 border-red-500">
-            <h2 class="text-xl font-bold text-red-600 mb-3">❌ छात्र कहाँ गलती करते हैं?</h2>
-            <div class="space-y-3 text-sm">
-                <div class="callout-important">
-                    <strong>1. मलेरिया Virus से नहीं:</strong> मलेरिया Protozoa (Plasmodium) से होता है!
-                </div>
-                <div class="callout-important">
-                    <strong>2. दाद Bacteria से नहीं:</strong> दाद Fungus (Trichophyton) से होता है!
-                </div>
-                <div class="callout-important">
-                    <strong>3. Antibiotics Virus पर नहीं:</strong> Antibiotics केवल Bacteria पर काम करते हैं!
-                </div>
-                <div class="callout-important">
-                    <strong>4. कालाजार मच्छर से नहीं:</strong> कालाजार सैंडफ्लाई से फैलता है!
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <div class="text-center text-gray-500 text-sm mt-8 pb-4 font-bold">
-            Created for my ❤️
         </div>
 
+        <!-- 1 Minute Summary -->
+        <div class="section">
+            <h2 class="section-title">⏱️ 1 मिनट में Summary</h2>
+            <ul class="summary-list">
+                <li><strong>वायरस (Virus):</strong> सबसे छोटे रोगकारक (बीमारी फैलाने वाले), जैसे - Covid-19, डेंगू, चेचक</li>
+                <li><strong>बैक्टीरिया (Bacteria):</strong> एककोशिकीय (एक कोशिका वाले) जीव, जैसे - टाइफाइड, हैजा, टीबी</li>
+                <li><strong>प्रोटोजोआ (Protozoa):</strong> एककोशिकीय परजीवी (दूसरे के शरीर में रहने वाले), जैसे - मलेरिया, कालाजार</li>
+                <li><strong>फंगस (Fungus):</strong> फफूंद से होने वाले रोग, जैसे - दाद, खाज, गंजापन</li>
+                <li><strong>कृमि (Helminth):</strong> परजीवी कीड़े, जैसे - फाइलेरिया (हाथीपांव)</li>
+                <li><strong>संचरण (फैलाव):</strong> मच्छर, पानी, हवा, संपर्क से फैलते हैं</li>
+                <li><strong>रोकथाम:</strong> टीकाकरण (Vaccination), स्वच्छता, सुरक्षित पानी</li>
+                <li><strong>Covid-19:</strong> SARS-CoV-2 वायरस से, 2019 में चीन से शुरू, महामारी (Pandemic)</li>
+            </ul>
+        </div>
+
+        <!-- Story Mode -->
+        <div class="section">
+            <h2 class="section-title">📖 Story Mode - राजू और मैडम</h2>
+            <div class="story-dialogue">
+                <div class="dialogue-box raju">
+                    <div class="speaker">राजू: 🙋‍♂️</div>
+                    <div>मैडम जी, रोग (बीमारी) इतने तरह के कैसे होते हैं?</div>
+                </div>
+                <div class="dialogue-box madam">
+                    <div class="speaker">मैडम: 👩‍🏫</div>
+                    <div>बेटा, रोग अलग-अलग <strong>रोगकारक (Pathogen)</strong> यानी बीमारी फैलाने वाले जीवों से होते हैं। जैसे छोटे-छोटे वायरस, बैक्टीरिया, कीड़े आदि।</div>
+                </div>
+                <div class="dialogue-box raju">
+                    <div class="speaker">राजू: 🙋‍♂️</div>
+                    <div>तो मलेरिया किससे होता है?</div>
+                </div>
+                <div class="dialogue-box madam">
+                    <div class="speaker">मैडम: 👩‍🏫</div>
+                    <div>मलेरिया <strong>Plasmodium</strong> नामक प्रोटोजोआ से होता है। यह मादा एनोफिलीज मच्छर के काटने से फैलता है।</div>
+                </div>
+                <div class="dialogue-box raju">
+                    <div class="speaker">राजू: 🙋‍♂️</div>
+                    <div>और टीबी (TB)?</div>
+                </div>
+                <div class="dialogue-box madam">
+                    <div class="speaker">मैडम: 👩‍🏫</div>
+                    <div>टीबी <strong>Mycobacterium tuberculosis</strong> बैक्टीरिया से होता है। यह फेफड़ों (Lungs) को प्रभावित करता है और खांसी-छींक से फैलता है।</div>
+                </div>
+                <div class="dialogue-box raju">
+                    <div class="speaker">राजू: 🙋‍♂️</div>
+                    <div>Covid-19 के बारे में भी बताइए ना!</div>
+                </div>
+                <div class="dialogue-box madam">
+                    <div class="speaker">मैडम: 👩‍🏫</div>
+                    <div>Covid-19 एक <strong>वायरल रोग</strong> है जो SARS-CoV-2 वायरस से होता है। 2019 में चीन के वुहान से शुरू हुआ और पूरी दुनिया में महामारी (Pandemic) बन गया।</div>
+                </div>
+                <div class="dialogue-box raju">
+                    <div class="speaker">राजू: 🙋‍♂️</div>
+                    <div>वाह मैडम! अब समझ आ गया। धन्यवाद! 🙏</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Virus Table -->
+        <div class="section">
+            <h2 class="section-title">🦠 वायरस (Virus) द्वारा होने वाले रोग</h2>
+            <div class="callout callout-important">
+                <div class="callout-title">⚠️ Important</div>
+                <div>वायरस सबसे छोटे रोगकारक होते हैं। ये केवल जीवित कोशिकाओं में ही वृद्धि कर सकते हैं।</div>
+            </div>
+            <div class="disease-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>रोग का नाम</th>
+                            <th>कारक (Pathogen)</th>
+                            <th>संचरण (कैसे फैलता है)</th>
+                            <th>लक्षण</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>डेंगू</strong></td><td>Dengue Virus</td><td>एडीज मच्छर</td><td>तेज बुखार, जोड़ों में दर्द</td></tr>
+                        <tr><td><strong>चेचक</strong></td><td>Variola Virus</td><td>हवा, संपर्क</td><td>शरीर पर दाने</td></tr>
+                        <tr><td><strong>रेबीज</strong></td><td>Rabies Virus</td><td>कुत्ते का काटना</td><td>पानी से डर</td></tr>
+                        <tr><td><strong>AIDS</strong></td><td>HIV Virus</td><td>रक्त, यौन संपर्क</td><td>इम्युनिटी कम होना</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Fill in the Blanks Section -->
+        <div class="section">
+            <h2 class="section-title">👁️ Fill in the Blanks (Eye Button से उत्तर देखें)</h2>
+            <div class="quiz-container">
+                <div class="fill-blank-container">
+                    <div class="fill-blank-question">
+                        <span><strong>Q1.</strong> मलेरिया का कारक ________ है।</span>
+                        <button class="eye-button" onclick="toggleAnswer(1)">👁️</button>
+                    </div>
+                    <div class="answer" id="answer1">
+                        उत्तर: <strong>Plasmodium (प्लास्मोडियम)</strong>
+                    </div>
+                </div>
+                <div class="fill-blank-container">
+                    <div class="fill-blank-question">
+                        <span><strong>Q2.</strong> Covid-19 ________ वायरस से होता है।</span>
+                        <button class="eye-button" onclick="toggleAnswer(2)">👁️</button>
+                    </div>
+                    <div class="answer" id="answer2">
+                        उत्तर: <strong>SARS-CoV-2</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="section footer-section">
+            <h2>🎓 All the Best for Your Exam! 🌟</h2>
+            <p>नियमित अभ्यास से सफलता निश्चित है।</p>
+        </div>
     </div>
 
-    <!-- Sticky Summary -->
-    <div class="sticky-summary shadow-2xl">
-        🦠 <strong>मानव रोग:</strong> Virus | Bacteria | Protozoa | Fungus | Worm
-    </div>
-
+    <!-- JavaScript फ़ाइल को लिंक करना -->
     <script src="script.js"></script>
 </body>
-
 </html>
