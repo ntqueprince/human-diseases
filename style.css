@@ -1,0 +1,135 @@
+/* Human Diseases (मानव रोग) - Lucent GK Exam Prep Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0fdf4 0%, #ecfeff 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.hero-gradient {
+    background: linear-gradient(135deg, #10b981 0%, #06b6d4 50%, #8b5cf6 100%);
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.callout-important {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+
+.callout-tip {
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+
+.callout-trick {
+    background: #fefce8;
+    border-left: 4px solid #eab308;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+
+.sticky-summary {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, #10b981, #06b6d4);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 13px;
+    z-index: 1000;
+}
+
+.disease-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.disease-table th {
+    background: #10b981;
+    color: white;
+    padding: 10px 8px;
+    text-align: left;
+}
+
+.disease-table td {
+    padding: 10px 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.disease-table tr:nth-child(even) {
+    background: #f0fdf4;
+}
+
+.fill-ans {
+    transition: all 0.3s ease;
+}
+
+.eye-btn {
+    cursor: pointer;
+    padding: 4px 8px;
+    background: #e0f2fe;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+}
+
+.eye-btn:hover {
+    background: #bae6fd;
+}
+
+/* Quiz option buttons */
+.quiz-option {
+    transition: all 0.2s ease;
+}
+
+.quiz-option:hover {
+    background-color: #f3f4f6;
+}
+
+/* Feedback messages */
+.feedback {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
